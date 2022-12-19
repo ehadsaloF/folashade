@@ -1,0 +1,99 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+body {
+}
+#home {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:50px;
+    padding-right: 50px
+}
+
+#homebox {
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vw;
+}
+#hometext {
+    font-family: 'josefin sans';
+    font-weight: 700;
+    font-size: 50px;
+    color: #385a64;
+}
+#homeimg {
+    width: 60vw;
+    height: fit-content
+}
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0%;
+    list-style: none;
+    text-decoration: none;
+    color: #223d44;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: stretch;
+    background-color: #ececec;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #385a64;
+    font-size: 20px;
+    position: fixed;
+    top : 0;
+    width: 100%
+}
+#navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    color: #223d44;
+    
+}
+.nav_links{
+    padding-left: 7vw;
+    display: block;
+}
+#aboutme {
+    font-family: 'open sans';
+    width: 100%;
+    color: #385a64;
+    font-weight: 400;
+    font-size: 1vw;
+    padding: 50px;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececec;
+}
+#title {
+    font-size: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    margin: auto;
+    padding: 50px
+}
+#aboutpic{
+    width: 30vw;
+}
+#abouttext{
+    font-size: 2vw;
+}
